@@ -9,7 +9,7 @@ const header = () => {
         <Link href="/">
           <Image
             className="transition hover:scale-105"
-            src="/logo.svg"
+            src="./logo.svg"
             alt="Next.js logo"
             width={180}
             height={38}

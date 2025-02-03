@@ -143,7 +143,7 @@ export default function GuessThatQuote() {
         <div className="p-6 max-w-xl mx-auto text-center">
           <div className="flex items-center justify-center border-b pb-6">
             <img
-              src={streak > 0 ? "/active_streak.gif" : "/not_active_streak.png"}
+              src={streak > 0 ? "./active_streak.gif" : "./not_active_streak.png"}
               alt="Streak status"
               className="w-8"
             />
