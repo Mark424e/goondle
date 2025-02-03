@@ -12,9 +12,10 @@ export default function Home() {
           height={38}
           priority
         />
+        <h2 className="border-b pb-4">The daily Goon Squad game</h2>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            <Link href="/quotes">Quotes</Link>
+            <Link className="transition hover:font-bold" href="/quotes">Guess The Gooner Quote</Link>
           </li>
         </ol>
       </main>
