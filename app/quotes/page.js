@@ -16,93 +16,32 @@ const friends = [
 ];
 
 const quotes = [
-  {
-    quote:
-      "Du får tissemand! Du får tissemand! Du ramte ham for tissemand! Let's go!",
-    author: "Mikkel",
-  },
-  { quote: "I die.", author: "Ravn" },
-  { quote: "Let's rotate!", author: "Oguz" },
-  {
-    quote:
-      "Jeg må hellere lige skynde mig at sige nogle homofobiske ting, så jeg kan nå at komme med i den næste video du laver.",
-    author: "Mikkel",
-  },
-  { quote: "***** Er det okay hvis jeg har en Onlyfans?", author: "Thai" },
-  {
-    quote: "Hun er en 10/10'er, men hun tror at du er fra Mexico.",
-    author: "Mikkel",
-  },
-  {
-    quote: "Øhh, jeg glor ikke lige på dit klamme banner lige nu.",
-    author: "Kristian",
-  },
-  { quote: "Ét gumlekort.", author: "Mark" },
-  {
-    quote:
-      "Nu skal jeg prøve at være ligesom Oguz... Jeg skal tænke ligesom Oguz... Jeg skal få den samme energi... Jeg skal få den samme had til bacon!",
-    author: "Ravn",
-  },
-  { quote: "Det er bare to KSI's mod hinanden", author: "Hjeds" },
-  {
-    quote:
-      "Altså, hvis jeg fik hende der, så havde jeg bare kommet online, og så ville vi bare havet spillet 3 runder mere jo...",
-    author: "Thai",
-  },
-  {
-    quote: "Jeg er unranked. Det vil sige, at jeg faktisk er pro.",
-    author: "Kristian",
-  },
-  { quote: "Uha...", author: "Mark" },
-  {
-    quote: "Han er jo ligesom dig Thai... fucking forfærdelig.",
-    author: "Mark",
-  },
-  {
-    quote:
-      "Han har jo også pads på skulderen jo... Ka' ikk' skyde igennem det... Nej nej... Jeg skal hvis bruge penge på de skins der...",
-    author: "Ravn",
-  },
-  {
-    quote:
-      "Jeg kan droppe nogen... Skal jeg dræbe nogen- Eller ikk' dræbe nogen.",
-    author: "Ravn",
-  },
-  {
-    quote:
-      "Fuck the Americans! Kill the Americans! Kill the Americans! Good job, Comrade.",
-    author: "Oguz",
-  },
-  {
-    quote:
-      "Seriøst, nogle gange så ville jeg ønske I kunne se mig mens jeg sidder og spiller Valorant, fordi jeg er fucking sjov. Jeg sad og throwede gang signs mens jeg sagde det der...",
-    author: "Therese",
-  },
-  { quote: "AD!", author: "Rejse" },
-  { quote: "Hvad sker der for den knockbock de har?", author: "Ravn" },
-  {
-    quote:
-      "Jeg kan godt forstå at det er 'OG'... Det var den gang de ikke kunne finde ud af noget...",
-    author: "Ravn",
-  },
-  { quote: "Warum bewegst du deine maus so ruckartig?", author: "Rikke" },
-  { quote: "Jeg er ikke god til at lave venner, okay?", author: "Thai" },
-  { quote: "Jeg har stjålet Marks ball", author: "Oguz" },
-  { quote: "Yo den har autisme, red den!", author: "Mikkel" },
-  {
-    quote:
-      "Whaaat? Jeg kan godt huske den her. Det var den gang man ikke kunne finde ud af noget... Det kan jeg stadigvæk ikke, men...",
-    author: "Ravn",
-  },
-  {
-    quote:
-      "Er du en luder? I don't judge, hvad end der får mad på bordet, ikk'?",
-    author: "Ravn",
-  },
-  {
-    quote: "Jeg kunne godt finde på at cooke en lille chinese lady...",
-    author: "Therese",
-  },
+  { quote: "Du får tissemand! Du får tissemand! Du ramte ham for tissemand! Let's go!", author: "Mikkel", hint: "VALORANT" },
+  { quote: "Jeg må hellere lige skynde mig at sige nogle homofobiske ting, så jeg kan nå at komme med i den næste video du laver.", author: "Mikkel", hint: "Discord" },
+  { quote: "***** Er det okay hvis jeg har en Onlyfans?", author: "Thai", hint: "Fortnite" },
+  { quote: "Hun er en 10/10'er, men hun tror at du er fra Mexico.", author: "Mikkel", hint: "Discord" },
+  { quote: "Øhh, jeg glor ikke lige på dit klamme banner lige nu.", author: "Kristian", hint: "VALORANT" },
+  { quote: "Ét gumlekort.", author: "Mark", hint: "Discord" },
+  { quote: "Nu skal jeg prøve at være ligesom Oguz... Jeg skal tænke ligesom Oguz... Jeg skal få den samme energi... Jeg skal få den samme had til bacon!", author: "Ravn", hint: "Discord" },
+  { quote: "Det er bare to KSI's mod hinanden", author: "Hjeds", hint: "Discord" },
+  { quote: "Altså, hvis jeg fik hende der, så havde jeg bare kommet online, og så ville vi bare havet spillet 3 runder mere jo...", author: "Thai", hint: "VALORANT" },
+  { quote: "Jeg er unranked. Det vil sige, at jeg faktisk er pro.", author: "Kristian", hint: "Discord" },
+  { quote: "Uha...", author: "Mark", hint: "Phasmophobia" },
+  { quote: "Han er jo ligesom dig Thai... fucking forfærdelig.", author: "Mark", hint: "VALORANT" },
+  { quote: "Han har jo også pads på skulderen jo... Ka' ikk' skyde igennem det... Nej nej... Jeg skal hvis bruge penge på de skins der...", author: "Ravn", hint: "Fortnite" },
+  { quote: "Jeg kan droppe nogen... Skal jeg dræbe nogen- Eller ikk' dræbe nogen.", author: "Ravn", hint: "VALORANT" },
+  { quote: "Fuck the Americans! Kill the Americans! Kill the Americans! Good job, Comrade.", author: "Oguz", hint: "Unturned" },
+  { quote: "Seriøst, nogle gange så ville jeg ønske I kunne se mig mens jeg sidder og spiller Valorant, fordi jeg er fucking sjov. Jeg sad og throwede gang signs mens jeg sagde det der...", author: "Therese", hint: "VALORANT" },
+  { quote: "AD!", author: "Rejse", hint: "VALORANT" },
+  { quote: "Hvad sker der for den knockbock de har?", author: "Ravn", hint: "Minecraft" },
+  { quote: "Jeg kan godt forstå at det er 'OG'... Det var den gang de ikke kunne finde ud af noget...", author: "Ravn", hint: "Fortnite" },
+  { quote: "Warum bewegst du deine maus so ruckartig?", author: "Rikke", hint: "VALORANT" },
+  { quote: "Jeg er ikke god til at lave venner, okay?", author: "Thai", hint: "VALORANT" },
+  { quote: "Jeg har stjålet Marks ball", author: "Oguz", hint: "Fortnite" },
+  { quote: "Yo den har autisme, red den!", author: "Mikkel", hint: "Bloons TD 6" },
+  { quote: "Whaaat? Jeg kan godt huske den her. Det var den gang man ikke kunne finde ud af noget... Det kan jeg stadigvæk ikke, men...", author: "Ravn", hint: "Fortnite" },
+  { quote: "Er du en luder? I don't judge, hvad end der får mad på bordet, ikk'?", author: "Ravn", hint: "VALORANT" },
+  { quote: "Jeg kunne godt finde på at cooke en lille chinese lady...", author: "Therese", hint: "VALORANT" },
 ];
 
 const getDailyQuote = () => {
@@ -122,6 +61,8 @@ export default function GuessThatQuote() {
   const [incorrectGuesses, setIncorrectGuesses] = useState([]);
   const [correctGuess, setCorrectGuess] = useState(null);
   const [gameState, setGameState] = useState(null);
+  const [hint, setHint] = useState(null);
+  const [selectedName, setSelectedName] = useState("Select a name");
 
   useEffect(() => {
     const storedGameState = localStorage.getItem("gameState");
@@ -137,6 +78,7 @@ export default function GuessThatQuote() {
         setRemainingOptions(parsedState.remainingOptions);
         setIncorrectGuesses(parsedState.incorrectGuesses);
         setCorrectGuess(parsedState.correctGuess);
+        setHint(parsedState.hint);
         return;
       }
     }
@@ -152,6 +94,7 @@ export default function GuessThatQuote() {
       (name) => name !== author
     );
     let newCorrectGuess = correctGuess;
+    let newHint = hint;
 
     if (author === dailyQuote.author) {
       newMessage = "Correct!";
@@ -159,6 +102,9 @@ export default function GuessThatQuote() {
       newCorrectGuess = author;
     } else {
       newIncorrectGuesses.push(author);
+      if (newGuesses === 3) {
+        newHint = dailyQuote.hint;
+      }
       if (newGuesses >= 5) {
         newMessage = "Out of guesses! Womp womp.";
         newStreak = 0;
@@ -173,6 +119,8 @@ export default function GuessThatQuote() {
     setIncorrectGuesses(newIncorrectGuesses);
     setRemainingOptions(newRemainingOptions);
     setCorrectGuess(newCorrectGuess);
+    setHint(newHint);
+    setSelectedName("Select a name");
     localStorage.setItem("streak", newStreak);
 
     const gameState = {
@@ -182,10 +130,10 @@ export default function GuessThatQuote() {
       remainingOptions: newRemainingOptions,
       incorrectGuesses: newIncorrectGuesses,
       correctGuess: newCorrectGuess,
+      hint: newHint,
     };
 
-    // Comment out the following line to disable persistent game state for testing purposes
-    // localStorage.setItem("gameState", JSON.stringify(gameState));
+    localStorage.setItem("gameState", JSON.stringify(gameState));
   };
 
   return (
@@ -209,6 +157,7 @@ export default function GuessThatQuote() {
               <>
                 <p className="text-lg italic mb-4">"{dailyQuote.quote}"</p>
                 <select
+                  value={selectedName}
                   onChange={(e) => handleGuess(e.target.value)}
                   className="p-2 border rounded bg-white text-black"
                   disabled={guesses >= 5 || message === "Correct!"}
@@ -221,8 +170,8 @@ export default function GuessThatQuote() {
                   ))}
                 </select>
                 <p className="mt-4 font-semibold">{message}</p>
-
-                <p>Guesses remaining: {5 - guesses}</p>
+                <p className="mt-2 italic text-blue-500">{guesses < 3 ? `Hint in ${3 - guesses} guess` : `Game/App: ${hint}`}</p>
+                <p>Guess remaining: {5 - guesses}</p>
                 <div className="mt-4">
                   {correctGuess && (
                     <p className="text-green-500 font-bold">{correctGuess}</p>
