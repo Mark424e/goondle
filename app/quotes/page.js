@@ -155,7 +155,9 @@ export default function GuessThatQuote() {
             <h1 className="text-2xl font-bold mb-4">Guess The Gooner Quote</h1>
             {dailyQuote && (
               <>
-                <p className="text-lg italic mb-4">"{dailyQuote.quote}"</p>
+                <div className=" bg-slate-500/25 p-5 rounded-xl mb-4">
+                  <p className="text-lg italic">"{dailyQuote.quote}"</p>
+                </div>
                 <select
                   value={selectedName}
                   onChange={(e) => handleGuess(e.target.value)}
