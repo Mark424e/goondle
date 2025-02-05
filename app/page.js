@@ -15,7 +15,7 @@ export default function Home() {
         <h2 className="border-b pb-4">The daily Goon Squad game</h2>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            <Link className="transition hover:font-bold" href="/quotes">Guess The Gooner Quote</Link>
+            <Link className="transition hover:font-bold" href="/quotes">Guess the Quote</Link>
           </li>
         </ol>
       </main>

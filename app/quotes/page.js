@@ -206,8 +206,7 @@ export default function GuessThatQuote() {
         newHint = dailyQuote.hint;
       }
       if (newGuesses >= 5) {
-        newMessage = "Out of guesses! Womp womp.";
-        newStreak = 0;
+        newMessage = "Womp womp. The person was " + dailyQuote.author;
       } else {
         newMessage = "Incorrect, try again.";
       }
@@ -292,11 +291,6 @@ export default function GuessThatQuote() {
                 </div>
               </>
             )}
-          </div>
-          <div className="mx-auto w-fit mt-20">
-            <Link className="border py-4 px-6 rounded-lg transition hover:bg-white hover:text-black" href="/pictures">
-              Next Game
-            </Link>
           </div>
         </div>
       </div>
